@@ -5,6 +5,7 @@ public class jude {
 		// TODO Auto-generated method stub
 		System.out.println("test");
 		System.out.println("Jude");
+		System.out.println("test merge");
 	}
 
 }
