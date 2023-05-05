@@ -1,7 +1,7 @@
 
 public class J1rry {
 public static void main(String[] args) {
-	System.out.println("hhhhhhhhhhhhhhhh");
+	System.out.println("個人測試");
 }
 
 
