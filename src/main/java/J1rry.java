@@ -1,7 +1,7 @@
 
 public class J1rry {
 public static void main(String[] args) {
-	System.out.println("修改後的檔案");
+	System.out.println("124325426");
 }
 
 
