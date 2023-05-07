@@ -1,4 +1,4 @@
-package dao;
+package clinic.vo.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -23,7 +23,7 @@ public class PriceListDaoImpl implements PriceListDao {
 
 		try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/tha101g2", "root", "Abcd1234");
 				PreparedStatement ps = conn.prepareStatement(sql);) {
-			ps.setInt(1, priceList.getServiceItem());
+			ps.setInt(1, priceList.getserviceItem());
 			ps.setInt(2, priceList.getServicePrice());
 			return ps.executeUpdate();
 		} catch (Exception e) {

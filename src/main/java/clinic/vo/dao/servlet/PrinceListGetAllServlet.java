@@ -1,4 +1,4 @@
-package servlet;
+package clinic.vo.dao.servlet;
 
 import java.io.IOException;
 import java.util.List;

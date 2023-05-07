@@ -1,4 +1,4 @@
-package dao;
+package clinic.vo.dao;
 
 import java.util.List;
 
