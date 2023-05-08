@@ -1,10 +1,7 @@
-package clinic.vo;
+package price_list;
 
-import java.io.Serializable;
+public class PriceList {
 
-public class PriceList implements Serializable {
-	
-	private static final long serialVersionUID = 1L;
 	private Integer service_item;
 	private Integer service_price;
 
